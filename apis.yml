@@ -1,8 +1,28 @@
 aid: sec3
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sec3.png
 name: Sec3
-description: 'Sec3 is a company surfaced as a portfolio company of multicoin-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Sec3 (formerly Soteria) is a Solana-native security firm, founded in
+  2021, providing smart-contract security audits, formal verification, and post-deployment
+  on-chain monitoring for high-stakes protocols and institutions building on Solana.
+  The team combines manual security review by experienced researchers with automated
+  tooling and formal methods, and maintains open-source tools including the X-Ray
+  static analysis scanner and IDL Guesser. Sec3 has secured protocols such as the
+  Solana Foundation, Wormhole, Kamino Finance, Helium Network, Jupiter, Orca, Metaplex,
+  and Solana Mobile, publishes an annual Solana Security Ecosystem Report, and offers
+  free nonce and multisig monitoring tooling. Surfaced as a portfolio company of Multicoin
+  Capital and enriched from Sec3''s public surface; it is a security-services firm
+  with no self-serve public API.'
 url: https://raw.githubusercontent.com/api-evangelist/sec3/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto Web3
+- Security
+- Blockchain
+- Solana
+- Smart Contracts
+- Auditing
+- Formal Verification
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sec3-domain-security.yml
 - type: Website
   url: https://sec3.dev
+- type: Blog
+  url: https://sec3.dev/blog
+- type: GitHubOrganization
+  url: https://github.com/sec3-service
+- type: Support
+  url: https://sec3.dev/contact
+- type: LLMsTxt
+  url: llms/sec3-llms.txt
+- type: WellKnown
+  url: well-known/sec3-well-known.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

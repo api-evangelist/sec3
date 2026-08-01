@@ -1,0 +1,36 @@
+# Sec3
+
+> Sec3 is a Solana-native security firm providing audits, formal verification, and post-deployment security support for high-stakes protocols and institutions.
+
+Sec3 focuses exclusively on the Solana ecosystem. The team combines manual security review with automated tooling and formal methods to secure smart contracts before and after deployment.
+
+## Pages
+
+- [Home](https://sec3.dev/): Overview of Sec3's services, trusted clients (Solana Foundation, Wormhole, Kamino Finance, Helium Network, Jupiter, Orca, Metaplex, Solana Mobile), and research initiatives.
+- [Audits](https://sec3.dev/audits): Security audit services for Solana programs — manual code review, formal verification, and validation harness testing.
+- [Blog](https://sec3.dev/blog): Security research, vulnerability analysis, audit methodology, Solana internals, and ecosystem insights. 40 published articles dating from 2021 to 2025.
+- [Public Audit Reports](https://github.com/sec3-service/reports): Published audit reports on GitHub for completed security reviews.
+- [Free Tools](https://sec3.dev/free-tools): Free security tooling for Solana teams.
+- [Nonce & Multisig Monitoring](https://sec3.dev/free-tools/nonce-multisig-monitoring): Free on-chain monitoring for durable nonce staging and multisig configuration changes — detects signer-compromise and governance-manipulation patterns before funds move.
+- [Solana Security Ecosystem Report 2025](https://sec3.dev/report): Data-driven analysis of vulnerability patterns, audit findings, and security trends across the Solana ecosystem.
+- [Contact](https://sec3.dev/contact): Inquiry form for audits, formal verification, and security support.
+
+## Services
+
+- **Security Audits**: Manual review of Solana programs by experienced security researchers. Covers business logic, access control, input validation, and arithmetic safety.
+- **Formal Verification**: Mathematical proof-based verification for critical protocol invariants.
+- **Post-Deployment Monitoring**: Ongoing on-chain monitoring as part of security support, including nonce staging detection and multisig configuration change alerts.
+
+## Key Facts
+
+- Founded: 2021
+- Focus: Solana ecosystem exclusively
+- Formerly known as: Soteria
+- Adjacent brand: SecLaunch — end-to-end service for institutions and protocols building on Solana
+- Open-source tools: [X-Ray vulnerability scanner](https://github.com/sec3-product/x-ray), [IDL Guesser](https://github.com/sec3-service/IDLGuesser)
+- Contact: contact@sec3.dev
+- X/Twitter: [@sec3dev](https://x.com/sec3dev)
+
+## Optional
+
+- [X-Ray on GitHub](https://github.com/sec3-product/x-ray): Open-source static analysis tool for Solana programs that detects common vulnerabilities including missing signer checks, missing ownership checks, and arithmetic issues.
